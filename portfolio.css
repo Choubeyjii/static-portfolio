@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: yellow center center fixed;
+}
+
+a {
+    color: inherit;
+}
+
+#nav {
+    background-color: yellow;
+    color: black;
+    width: 18vh;
+    height: 97vh;
+    display: inline-block;
+}
+
+.cv {
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    top: 66%;
+    left: 41px;
+}
+
+.fa-instagram {
+    position: absolute;
+    top: 78%;
+    left: 41px;
+}
+
+.fa-linkedin {
+    position: absolute;
+    top: 86%;
+    left: 44px;
+}
+
+.fa-github {
+    position: absolute;
+    top: 95%;
+    left: 44px;
+}
+
+.project {
+    font-style: italic;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 25px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    top: 54%;
+    left: 39px;
+}
+
+.about {
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    top: 36%;
+    left: 38px;
+}
+
+.hire {
+    font-style: italic;
+    font-size: 23px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    top: 20%;
+    left: 38px;
+}
+
+#intro {
+    display: inline-block;
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left:7%;
+    margin-left: 0px;
+    background-color: black;
+    height: 100vh;
+}
+
+
+.img {
+    display: inline-block;
+    /* width: 100vh; */
+    /* height: 100%; */
+    position: absolute;
+    top: 48%;
+    left: 76%;
+    background: none;
+}
+
+.btn {
+    color: white;
+    background: rgb(175, 77, 175);
+    font-size: 20px;
+    border: 2px solid rgb(175, 77, 175);
+    cursor: pointer;
+    outline: none;
+    width: 12%;
+    height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    top: 83%;
+    left: 76%;
+}
+
+.btn:hover {
+    background: purple;
+    color: white;
+
+}
+
+.hello {
+    /* color: black; */
+    font-size: 55px;
+    margin-left: 65px;
+    font-family: 'Rubik Iso', cursive;
+    position: absolute;
+    top: 68px;
+    left: 60px;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 76px;
+    position: absolute;
+    top: 123px;
+    left: 122px;
+}
+
+.stack {
+    /* color: black; */
+    font-size: 55px;
+    margin-left: 65px;
+    font-family: 'Rubik Iso', cursive;
+    position: absolute;
+    top: 210px;
+    left: 60px;
+
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    position: absolute;
+    top: 310px;
+    left: 60px;
+
+}
+
+.reach {
+    font-family: 'Londrina Solid', cursive;
+
+    color: black;
+    background: rgb(209, 209, 34);
+    font-size: 20px;
+    border: 2px solid rgb(209, 209, 34);
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    top: 86%;
+    left: 105px;
+}
+.reach:hover{
+    background: yellow;
+    color: black;
+}
+@media (max-width: 480px){
+    .body{
+        display:block;
+    }
+}
